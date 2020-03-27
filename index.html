@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-filter=no ">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css"  crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/you.jpeg" alt="Side Image">
+                </div>
+                <div class="col-md-6">
+                    <section class="header-title">
+                        <h3>A SIMPLE MARKETING SURVEY </h3> 
+                    </section>
+                    <section id="questions">
+                        <form action="" name="survey">
+                            <h4>Professional Questions Sections</h4>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Have you interacted with a Professional Staff from the organization in the last 2 weeks?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">What are some of the challenges people face with marketing to public spaces?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">What are some of the skills you have gained from the organization so far?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">How would you like to interact with other team members?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">What improvement should be made with regards to the marketing strategies?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                              <button type="button" name="buttonSurvey" onsubmit="return validateForm()">Thank you for your time and honesty.</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

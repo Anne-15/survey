@@ -1,0 +1,25 @@
+body{
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+}
+#questions{
+    padding: 10px;
+}
+#questions .professional{
+    padding: 10px;
+}
+/* .header-title{
+    margin-left: 500px;
+}
+#questions{
+    margin-left: 500px;
+} */
+
+button{
+    width: 500px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: chocolate;
+}
